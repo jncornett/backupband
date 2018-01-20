@@ -10,8 +10,8 @@ package:
   include:
   - ./bin/**
 
-  functions:
-    BackupBandAlexaHandler:
-      handler: bin/main
-      events:
-      - alexaSkill
+functions:
+  BackupBandAlexaHandler:
+    handler: bin/main
+    events:
+    - alexaSkill
