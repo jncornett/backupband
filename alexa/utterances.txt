@@ -1,0 +1,27 @@
+StartPlaying play a song
+StartPlaying start playing
+CueInstrument cue {Instrument}
+ExitInstrument exit {Instrument}
+SoloInstrument solo {Instrument}
+AddStyle add some {Style}
+AddStyle add the {Style}
+DropStyle drop the {Style}
+DropStyle remove the {Style}
+TrySomethingElse try something else
+TrySomethingElse change it up
+SetMusicalScale set the key to {RootNote} {Tone}
+SetMusicalScale play in the key of {RootNote} {Tone}
+GetMusicalScale what key is this
+SetBPM set the BPM to {BPM}
+SetBPM set the speed to {BPM} BPM
+SetBPM set the speed to {BPM} beats per minute
+GetBPM what is the current BPM
+GetBPM what is the current speed
+IncreaseBPM increase the BPM
+IncreaseBPM increase the speed
+DecreaseBPM decrease the BPM
+DecreaseBPM decrease the speed
+SetIntensity set the intensity to {Intensity}
+GetIntensity what is the current intensity
+IncreaseIntensity increase the intensity
+DecreaseIntensity intensity

@@ -1,0 +1,17 @@
+service: BackupBandAlexaSkill
+
+provider:
+  name: aws
+  runtime: go1.x
+
+package:
+  exclude:
+  - ./**
+  include:
+  - ./bin/**
+
+  functions:
+    BackupBandAlexaHandler:
+      handler: bin/main
+      events:
+      - alexaSkill

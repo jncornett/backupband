@@ -1,0 +1,39 @@
+{
+  "LIST_OF_NOTES": [
+    "A Flat",
+    "A",
+    "A Sharp",
+    "B Flat",
+    "B",
+    "C",
+    "C Sharp",
+    "D Flat",
+    "D",
+    "D Sharp",
+    "E Flat",
+    "E",
+    "F",
+    "F Sharp",
+    "G Flat",
+    "G",
+    "G Sharp"
+  ],
+  "LIST_OF_TONES": [
+    "Major",
+    "Minor"
+  ],
+  "LIST_OF_INSTRUMENTS": [
+    "Drums",
+    "Bass",
+    "Lead",
+    "Pad",
+    "Strings",
+    "Choir"
+  ],
+  "LIST_OF_STYLES": [
+    "Swing",
+    "Jazz",
+    "Syncopation",
+    "Glitch"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "StartPlaying"
+    },
+    {
+      "intent": "SetMusicalScale",
+      "slots": [
+        {
+          "name": "RootNote",
+          "type": "LIST_OF_NOTES"
+        },
+        {
+          "name": "Tone",
+          "type": "LIST_OF_TONES"
+        }
+      ]
+    },
+    {
+      "intent": "GetMusicalScale"
+    },
+    {
+      "intent": "CueInstrument",
+      "slots": [
+        {
+          "name": "Instrument",
+          "type": "LIST_OF_INSTRUMENTS"
+        }
+      ]
+    },
+    {
+      "intent": "ExitInstrument",
+      "slots": [
+        {
+          "name": "Instrument",
+          "type": "LIST_OF_INSTRUMENTS"
+        }
+      ]
+    },
+    {
+      "intent": "SoloInstrument",
+      "slots": [
+        {
+          "name": "Instrument",
+          "type": "LIST_OF_INSTRUMENTS"
+        }
+      ]
+    },
+    {
+      "intent": "AddStyle",
+      "slots": [
+        {
+          "name": "Style",
+          "type": "LIST_OF_STYLES"
+        }
+      ]
+    },
+    {
+      "intent": "DropStyle",
+      "slots": [
+        {
+          "name": "Style",
+          "type": "LIST_OF_STYLES"
+        }
+      ]
+    },
+    {
+      "intent": "TrySomethingElse"
+    },
+    {
+      "intent": "SetBPM",
+      "slots": [
+        {
+          "name": "BPM",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "GetBPM"
+    },
+    {
+      "intent": "IncreaseBPM"
+    },
+    {
+      "intent": "DecreaseBPM"
+    },
+    {
+      "intent": "SetIntensity",
+      "slots": [
+        {
+          "name": "Intensity",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "GetIntensity"
+    },
+    {
+      "intent": "IncreaseIntensity"
+    },
+    {
+      "intent": "DecreaseIntensity"
+    }
+  ]
+}
