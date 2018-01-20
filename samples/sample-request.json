@@ -1,0 +1,41 @@
+
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.[some unique id]",
+    "application": {
+      "applicationId": "amzn1.ask.skill.[some unique id]"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.[some user token]"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.[some unique id]",
+    "intent": {
+      "name": "StartPlaying",
+      "slots": {}
+    },
+    "locale": "en-US",
+    "timestamp": "2018-01-19T06:51:06Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.[some unique id]"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.[some user token]"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}
