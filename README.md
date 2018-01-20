@@ -6,6 +6,11 @@ TODO description
 
 ### Building
 
+First, make sure you pull in all of the Go dependencies. Make sure your $GOPATH
+is setup correctly and then, in the package root, run:
+
+    go get -u ./...
+
 In the package root, run
 
     make
